@@ -1,0 +1,41 @@
+[2.570s] Invoking command in '/home/ubuntu/odrv_ws/src/pubsub': PYTHONPATH=/home/ubuntu/odrv_ws/install/pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/ubuntu/odrv_ws/build/pubsub/build install --prefix /home/ubuntu/odrv_ws/install/pubsub --record /home/ubuntu/odrv_ws/build/pubsub/install.log --single-version-externally-managed
+[3.423s] running egg_info
+[3.425s] creating ../../build/pubsub/pubsub.egg-info
+[3.426s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[3.427s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[3.427s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[3.428s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[3.428s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[3.433s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[3.553s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[3.555s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[3.556s] running build
+[3.556s] running build_py
+[3.557s] creating /home/ubuntu/odrv_ws/build/pubsub/build
+[3.557s] creating /home/ubuntu/odrv_ws/build/pubsub/build/lib
+[3.558s] creating /home/ubuntu/odrv_ws/build/pubsub/build/lib/pubsub
+[3.558s] copying pubsub/__init__.py -> /home/ubuntu/odrv_ws/build/pubsub/build/lib/pubsub
+[3.559s] copying pubsub/publisher_member_function.py -> /home/ubuntu/odrv_ws/build/pubsub/build/lib/pubsub
+[3.559s] copying pubsub/subscriber_member_function.py -> /home/ubuntu/odrv_ws/build/pubsub/build/lib/pubsub
+[3.560s] running install
+[3.563s] running install_lib
+[3.566s] creating /home/ubuntu/odrv_ws/install/pubsub/lib/python3.8/site-packages/pubsub
+[3.566s] copying /home/ubuntu/odrv_ws/build/pubsub/build/lib/pubsub/__init__.py -> /home/ubuntu/odrv_ws/install/pubsub/lib/python3.8/site-packages/pubsub
+[3.567s] copying /home/ubuntu/odrv_ws/build/pubsub/build/lib/pubsub/publisher_member_function.py -> /home/ubuntu/odrv_ws/install/pubsub/lib/python3.8/site-packages/pubsub
+[3.567s] copying /home/ubuntu/odrv_ws/build/pubsub/build/lib/pubsub/subscriber_member_function.py -> /home/ubuntu/odrv_ws/install/pubsub/lib/python3.8/site-packages/pubsub
+[3.570s] byte-compiling /home/ubuntu/odrv_ws/install/pubsub/lib/python3.8/site-packages/pubsub/__init__.py to __init__.cpython-38.pyc
+[3.574s] byte-compiling /home/ubuntu/odrv_ws/install/pubsub/lib/python3.8/site-packages/pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[3.576s] byte-compiling /home/ubuntu/odrv_ws/install/pubsub/lib/python3.8/site-packages/pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[3.578s] running install_data
+[3.580s] creating /home/ubuntu/odrv_ws/install/pubsub/share/ament_index
+[3.580s] creating /home/ubuntu/odrv_ws/install/pubsub/share/ament_index/resource_index
+[3.580s] creating /home/ubuntu/odrv_ws/install/pubsub/share/ament_index/resource_index/packages
+[3.581s] copying resource/pubsub -> /home/ubuntu/odrv_ws/install/pubsub/share/ament_index/resource_index/packages
+[3.581s] copying package.xml -> /home/ubuntu/odrv_ws/install/pubsub/share/pubsub
+[3.582s] running install_egg_info
+[3.587s] Copying ../../build/pubsub/pubsub.egg-info to /home/ubuntu/odrv_ws/install/pubsub/lib/python3.8/site-packages/pubsub-0.0.0-py3.8.egg-info
+[3.591s] running install_scripts
+[3.651s] Installing listener script to /home/ubuntu/odrv_ws/install/pubsub/lib/pubsub
+[3.652s] Installing talker script to /home/ubuntu/odrv_ws/install/pubsub/lib/pubsub
+[3.653s] writing list of installed files to '/home/ubuntu/odrv_ws/build/pubsub/install.log'
+[3.746s] Invoked command in '/home/ubuntu/odrv_ws/src/pubsub' returned '0': PYTHONPATH=/home/ubuntu/odrv_ws/install/pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/ubuntu/odrv_ws/build/pubsub/build install --prefix /home/ubuntu/odrv_ws/install/pubsub --record /home/ubuntu/odrv_ws/build/pubsub/install.log --single-version-externally-managed

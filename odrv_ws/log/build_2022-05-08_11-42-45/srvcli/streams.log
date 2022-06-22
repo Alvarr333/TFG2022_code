@@ -1,0 +1,22 @@
+[2.870s] Invoking command in '/home/ubuntu/odrv_ws/src/srvcli': PYTHONPATH=/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/srvcli build --build-base /home/ubuntu/odrv_ws/build/srvcli/build install --prefix /home/ubuntu/odrv_ws/install/srvcli --record /home/ubuntu/odrv_ws/build/srvcli/install.log --single-version-externally-managed
+[3.811s] running egg_info
+[3.813s] writing ../../build/srvcli/srvcli.egg-info/PKG-INFO
+[3.814s] writing dependency_links to ../../build/srvcli/srvcli.egg-info/dependency_links.txt
+[3.815s] writing entry points to ../../build/srvcli/srvcli.egg-info/entry_points.txt
+[3.815s] writing requirements to ../../build/srvcli/srvcli.egg-info/requires.txt
+[3.816s] writing top-level names to ../../build/srvcli/srvcli.egg-info/top_level.txt
+[3.950s] reading manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+[3.953s] writing manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+[3.954s] running build
+[3.954s] running build_py
+[3.956s] running install
+[3.963s] running install_lib
+[3.971s] running install_data
+[3.973s] running install_egg_info
+[3.980s] removing '/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+[3.981s] Copying ../../build/srvcli/srvcli.egg-info to /home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli-0.0.0-py3.8.egg-info
+[3.985s] running install_scripts
+[4.047s] Installing client script to /home/ubuntu/odrv_ws/install/srvcli/lib/srvcli
+[4.048s] Installing service script to /home/ubuntu/odrv_ws/install/srvcli/lib/srvcli
+[4.049s] writing list of installed files to '/home/ubuntu/odrv_ws/build/srvcli/install.log'
+[4.154s] Invoked command in '/home/ubuntu/odrv_ws/src/srvcli' returned '0': PYTHONPATH=/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/srvcli build --build-base /home/ubuntu/odrv_ws/build/srvcli/build install --prefix /home/ubuntu/odrv_ws/install/srvcli --record /home/ubuntu/odrv_ws/build/srvcli/install.log --single-version-externally-managed

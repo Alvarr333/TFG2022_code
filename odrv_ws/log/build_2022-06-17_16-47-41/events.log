@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000864] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.001142] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001785] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002322] (srvcli) JobQueued: {'identifier': 'srvcli', 'dependencies': OrderedDict([('interfaces', '/home/ubuntu/odrv_ws/install/interfaces')])}
+[0.003433] (srvcli) JobStarted: {'identifier': 'srvcli'}
+[0.099121] (-) TimerEvent: {}
+[0.199916] (-) TimerEvent: {}
+[0.300657] (-) TimerEvent: {}
+[0.401626] (-) TimerEvent: {}
+[0.502222] (-) TimerEvent: {}
+[0.602857] (-) TimerEvent: {}
+[0.703433] (-) TimerEvent: {}
+[0.804016] (-) TimerEvent: {}
+[0.904798] (-) TimerEvent: {}
+[1.006080] (-) TimerEvent: {}
+[1.110575] (-) TimerEvent: {}
+[1.211440] (-) TimerEvent: {}
+[1.312151] (-) TimerEvent: {}
+[1.412730] (-) TimerEvent: {}
+[1.513351] (-) TimerEvent: {}
+[1.613918] (-) TimerEvent: {}
+[1.714525] (-) TimerEvent: {}
+[1.815152] (-) TimerEvent: {}
+[1.915738] (-) TimerEvent: {}
+[2.016324] (-) TimerEvent: {}
+[2.116918] (-) TimerEvent: {}
+[2.217649] (-) TimerEvent: {}
+[2.318252] (-) TimerEvent: {}
+[2.418870] (-) TimerEvent: {}
+[2.519552] (-) TimerEvent: {}
+[2.579153] (srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/srvcli', 'build', '--build-base', '/home/ubuntu/odrv_ws/build/srvcli/build', 'install', '--prefix', '/home/ubuntu/odrv_ws/install/srvcli', '--record', '/home/ubuntu/odrv_ws/build/srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/odrv_ws/src/srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.43.75 50990 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/odrv_ws/install/interfaces/lib:/home/ubuntu/odrv_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/odrv_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/odrv_ws/install/turtlesim:/home/ubuntu/odrv_ws/install/srvcli:/home/ubuntu/odrv_ws/install/py_srvcli:/home/ubuntu/odrv_ws/install/interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'PWD': '/home/ubuntu/odrv_ws/build/srvcli', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.43.75 50990 192.168.43.248 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/py_srvcli/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/odrv_ws/install/interfaces:/home/ubuntu/odrv_ws/install/turtlesim'}, 'shell': False}
+[2.619774] (-) TimerEvent: {}
+[2.720510] (-) TimerEvent: {}
+[2.821063] (-) TimerEvent: {}
+[2.921761] (-) TimerEvent: {}
+[3.022340] (-) TimerEvent: {}
+[3.122950] (-) TimerEvent: {}
+[3.223510] (-) TimerEvent: {}
+[3.324087] (-) TimerEvent: {}
+[3.424667] (-) TimerEvent: {}
+[3.428398] (srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[3.430567] (srvcli) StdoutLine: {'line': b'writing ../../build/srvcli/srvcli.egg-info/PKG-INFO\n'}
+[3.432811] (srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/srvcli/srvcli.egg-info/dependency_links.txt\n'}
+[3.433591] (srvcli) StdoutLine: {'line': b'writing entry points to ../../build/srvcli/srvcli.egg-info/entry_points.txt\n'}
+[3.434187] (srvcli) StdoutLine: {'line': b'writing requirements to ../../build/srvcli/srvcli.egg-info/requires.txt\n'}
+[3.434736] (srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/srvcli/srvcli.egg-info/top_level.txt\n'}
+[3.524835] (-) TimerEvent: {}
+[3.559260] (srvcli) StdoutLine: {'line': b"reading manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'\n"}
+[3.562477] (srvcli) StdoutLine: {'line': b"writing manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'\n"}
+[3.563055] (srvcli) StdoutLine: {'line': b'running build\n'}
+[3.563489] (srvcli) StdoutLine: {'line': b'running build_py\n'}
+[3.563898] (srvcli) StdoutLine: {'line': b'copying srvcli/service_member_function1.py -> /home/ubuntu/odrv_ws/build/srvcli/build/lib/srvcli\n'}
+[3.565626] (srvcli) StdoutLine: {'line': b'running install\n'}
+[3.568476] (srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[3.572055] (srvcli) StdoutLine: {'line': b'copying /home/ubuntu/odrv_ws/build/srvcli/build/lib/srvcli/service_member_function1.py -> /home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli\n'}
+[3.574823] (srvcli) StdoutLine: {'line': b'byte-compiling /home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli/service_member_function1.py to service_member_function1.cpython-38.pyc\n'}
+[3.582498] (srvcli) StdoutLine: {'line': b'running install_data\n'}
+[3.584597] (srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.589901] (srvcli) StdoutLine: {'line': b"removing '/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.591308] (srvcli) StdoutLine: {'line': b'Copying ../../build/srvcli/srvcli.egg-info to /home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli-0.0.0-py3.8.egg-info\n'}
+[3.595284] (srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[3.625014] (-) TimerEvent: {}
+[3.654945] (srvcli) StdoutLine: {'line': b'Installing client script to /home/ubuntu/odrv_ws/install/srvcli/lib/srvcli\n'}
+[3.655731] (srvcli) StdoutLine: {'line': b'Installing service script to /home/ubuntu/odrv_ws/install/srvcli/lib/srvcli\n'}
+[3.657314] (srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/odrv_ws/build/srvcli/install.log'\n"}
+[3.725231] (-) TimerEvent: {}
+[3.749740] (srvcli) CommandEnded: {'returncode': 0}
+[3.796107] (srvcli) JobEnded: {'identifier': 'srvcli', 'rc': 0}
+[3.798505] (-) EventReactorShutdown: {}

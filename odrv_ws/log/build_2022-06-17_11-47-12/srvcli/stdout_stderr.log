@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/srvcli/srvcli.egg-info/PKG-INFO
+writing dependency_links to ../../build/srvcli/srvcli.egg-info/dependency_links.txt
+writing entry points to ../../build/srvcli/srvcli.egg-info/entry_points.txt
+writing requirements to ../../build/srvcli/srvcli.egg-info/requires.txt
+writing top-level names to ../../build/srvcli/srvcli.egg-info/top_level.txt
+reading manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+writing manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+running build
+running build_py
+copying srvcli/client_member_function.py -> /home/ubuntu/odrv_ws/build/srvcli/build/lib/srvcli
+copying srvcli/service_member_function.py -> /home/ubuntu/odrv_ws/build/srvcli/build/lib/srvcli
+running install
+running install_lib
+copying /home/ubuntu/odrv_ws/build/srvcli/build/lib/srvcli/client_member_function.py -> /home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli
+copying /home/ubuntu/odrv_ws/build/srvcli/build/lib/srvcli/service_member_function.py -> /home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli
+byte-compiling /home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli/client_member_function.py to client_member_function.cpython-38.pyc
+byte-compiling /home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli/service_member_function.py to service_member_function.cpython-38.pyc
+  File "/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli/service_member_function.py", line 91
+    elif(request.axis == 0):
+    ^
+SyntaxError: invalid syntax
+
+running install_data
+running install_egg_info
+removing '/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/srvcli/srvcli.egg-info to /home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli-0.0.0-py3.8.egg-info
+running install_scripts
+Installing client script to /home/ubuntu/odrv_ws/install/srvcli/lib/srvcli
+Installing service script to /home/ubuntu/odrv_ws/install/srvcli/lib/srvcli
+writing list of installed files to '/home/ubuntu/odrv_ws/build/srvcli/install.log'

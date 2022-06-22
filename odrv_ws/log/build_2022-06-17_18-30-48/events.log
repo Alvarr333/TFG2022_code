@@ -1,0 +1,475 @@
+[0.000000] (-) TimerEvent: {}
+[0.000879] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.001158] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001857] (-) JobUnselected: {'identifier': 'srvcli'}
+[0.002393] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.003407] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.003614] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.047901] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.051187] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.054267] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/odrv_ws/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/odrv_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.43.75 50990 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/odrv_ws/install/turtlesim/lib:/home/ubuntu/odrv_ws/install/interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/odrv_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/odrv_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/odrv_ws/install/turtlesim:/home/ubuntu/odrv_ws/install/srvcli:/home/ubuntu/odrv_ws/install/py_srvcli:/home/ubuntu/odrv_ws/install/interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/odrv_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.43.75 50990 192.168.43.248 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/py_srvcli/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/odrv_ws/install/turtlesim:/home/ubuntu/odrv_ws/install/interfaces:/home/ubuntu/odrv_ws/install/srvcli:/home/ubuntu/odrv_ws/install/py_srvcli:/opt/ros/foxy')]), 'shell': False}
+[0.099165] (-) TimerEvent: {}
+[0.165997] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.199273] (-) TimerEvent: {}
+[0.259329] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299443] (-) TimerEvent: {}
+[0.400185] (-) TimerEvent: {}
+[0.501130] (-) TimerEvent: {}
+[0.601896] (-) TimerEvent: {}
+[0.702457] (-) TimerEvent: {}
+[0.803023] (-) TimerEvent: {}
+[0.903619] (-) TimerEvent: {}
+[1.004239] (-) TimerEvent: {}
+[1.020212] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.028711] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.040569] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.104412] (-) TimerEvent: {}
+[1.205073] (-) TimerEvent: {}
+[1.305748] (-) TimerEvent: {}
+[1.406603] (-) TimerEvent: {}
+[1.507319] (-) TimerEvent: {}
+[1.608179] (-) TimerEvent: {}
+[1.708822] (-) TimerEvent: {}
+[1.809517] (-) TimerEvent: {}
+[1.910168] (-) TimerEvent: {}
+[2.010857] (-) TimerEvent: {}
+[2.043850] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.111005] (-) TimerEvent: {}
+[2.211745] (-) TimerEvent: {}
+[2.217501] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.311909] (-) TimerEvent: {}
+[2.412530] (-) TimerEvent: {}
+[2.513148] (-) TimerEvent: {}
+[2.613796] (-) TimerEvent: {}
+[2.714499] (-) TimerEvent: {}
+[2.739934] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.814653] (-) TimerEvent: {}
+[2.915301] (-) TimerEvent: {}
+[3.016008] (-) TimerEvent: {}
+[3.116764] (-) TimerEvent: {}
+[3.217527] (-) TimerEvent: {}
+[3.318220] (-) TimerEvent: {}
+[3.418886] (-) TimerEvent: {}
+[3.519670] (-) TimerEvent: {}
+[3.564885] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.608950] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.619920] (-) TimerEvent: {}
+[3.708697] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.711296] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.720096] (-) TimerEvent: {}
+[3.819797] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.820526] (-) TimerEvent: {}
+[3.820999] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.821667] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[3.887275] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.920702] (-) TimerEvent: {}
+[3.980939] (interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.002531] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.011924] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.020841] (-) TimerEvent: {}
+[4.045580] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.121064] (-) TimerEvent: {}
+[4.221783] (-) TimerEvent: {}
+[4.322424] (-) TimerEvent: {}
+[4.365890] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.380029] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/odrv_ws/build/interfaces\n'}
+[4.422631] (-) TimerEvent: {}
+[4.486054] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__cpp\x1b[0m\n'}
+[4.488429] (interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.522804] (-) TimerEvent: {}
+[4.532944] (interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.622996] (-) TimerEvent: {}
+[4.723702] (-) TimerEvent: {}
+[4.824411] (-) TimerEvent: {}
+[4.925297] (-) TimerEvent: {}
+[5.026198] (-) TimerEvent: {}
+[5.126899] (-) TimerEvent: {}
+[5.227547] (-) TimerEvent: {}
+[5.328164] (-) TimerEvent: {}
+[5.428929] (-) TimerEvent: {}
+[5.529574] (-) TimerEvent: {}
+[5.630364] (-) TimerEvent: {}
+[5.731647] (-) TimerEvent: {}
+[5.832664] (-) TimerEvent: {}
+[5.857533] (interfaces) StdoutLine: {'line': b'[  5%] Built target interfaces__cpp\n'}
+[5.888705] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[5.907425] (interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.910237] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.913648] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.932972] (-) TimerEvent: {}
+[5.956079] (interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/odrive__functions.c.o\x1b[0m\n'}
+[6.033396] (-) TimerEvent: {}
+[6.134495] (-) TimerEvent: {}
+[6.236430] (-) TimerEvent: {}
+[6.337838] (-) TimerEvent: {}
+[6.439397] (-) TimerEvent: {}
+[6.541025] (-) TimerEvent: {}
+[6.643708] (-) TimerEvent: {}
+[6.778491] (-) TimerEvent: {}
+[6.881087] (-) TimerEvent: {}
+[6.983313] (-) TimerEvent: {}
+[7.085877] (-) TimerEvent: {}
+[7.188252] (-) TimerEvent: {}
+[7.201489] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor__functions.c.o\x1b[0m\n'}
+[7.288621] (-) TimerEvent: {}
+[7.390168] (-) TimerEvent: {}
+[7.491559] (-) TimerEvent: {}
+[7.593165] (-) TimerEvent: {}
+[7.624398] (interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.693559] (-) TimerEvent: {}
+[7.795281] (-) TimerEvent: {}
+[7.896875] (-) TimerEvent: {}
+[8.001656] (-) TimerEvent: {}
+[8.035225] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.101919] (-) TimerEvent: {}
+[8.186198] (interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/odrive__type_support.cpp.o\x1b[0m\n'}
+[8.199234] (interfaces) StdoutLine: {'line': b'[ 23%] Built target interfaces__rosidl_generator_c\n'}
+[8.202194] (-) TimerEvent: {}
+[8.305137] (-) TimerEvent: {}
+[8.323327] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.402816] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[8.405492] (-) TimerEvent: {}
+[8.507869] (-) TimerEvent: {}
+[8.590620] (interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/odrive__type_support.cpp.o\x1b[0m\n'}
+[8.608128] (-) TimerEvent: {}
+[8.709634] (-) TimerEvent: {}
+[8.811158] (-) TimerEvent: {}
+[8.912533] (-) TimerEvent: {}
+[8.943194] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[9.012826] (-) TimerEvent: {}
+[9.114340] (-) TimerEvent: {}
+[9.134863] (interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/odrive__type_support.cpp.o\x1b[0m\n'}
+[9.214630] (-) TimerEvent: {}
+[9.316008] (-) TimerEvent: {}
+[9.417335] (-) TimerEvent: {}
+[9.518701] (-) TimerEvent: {}
+[9.620262] (-) TimerEvent: {}
+[9.721749] (-) TimerEvent: {}
+[9.823051] (-) TimerEvent: {}
+[9.923948] (-) TimerEvent: {}
+[10.025150] (-) TimerEvent: {}
+[10.126204] (-) TimerEvent: {}
+[10.227119] (-) TimerEvent: {}
+[10.328026] (-) TimerEvent: {}
+[10.429137] (-) TimerEvent: {}
+[10.530520] (-) TimerEvent: {}
+[10.538549] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[10.611876] (interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/odrive__type_support.cpp.o\x1b[0m\n'}
+[10.630802] (-) TimerEvent: {}
+[10.731796] (-) TimerEvent: {}
+[10.832691] (-) TimerEvent: {}
+[10.860259] (interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor__type_support.cpp.o\x1b[0m\n'}
+[10.933108] (-) TimerEvent: {}
+[11.014305] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/motor__type_support.cpp.o\x1b[0m\n'}
+[11.029591] (interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor__type_support.cpp.o\x1b[0m\n'}
+[11.033368] (-) TimerEvent: {}
+[11.036723] (interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.133609] (-) TimerEvent: {}
+[11.218780] (interfaces) StdoutLine: {'line': b'[ 43%] Built target interfaces__rosidl_typesupport_c\n'}
+[11.233809] (-) TimerEvent: {}
+[11.311219] (interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor__type_support.cpp.o\x1b[0m\n'}
+[11.334053] (-) TimerEvent: {}
+[11.435119] (-) TimerEvent: {}
+[11.536167] (-) TimerEvent: {}
+[11.637069] (-) TimerEvent: {}
+[11.738145] (-) TimerEvent: {}
+[11.839361] (-) TimerEvent: {}
+[11.940412] (-) TimerEvent: {}
+[12.041429] (-) TimerEvent: {}
+[12.142580] (-) TimerEvent: {}
+[12.202747] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[12.242849] (-) TimerEvent: {}
+[12.344015] (-) TimerEvent: {}
+[12.444981] (-) TimerEvent: {}
+[12.546002] (-) TimerEvent: {}
+[12.585356] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[12.590228] (interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[12.646182] (-) TimerEvent: {}
+[12.747092] (-) TimerEvent: {}
+[12.799708] (interfaces) StdoutLine: {'line': b'[ 53%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[12.847333] (-) TimerEvent: {}
+[12.899514] (interfaces) StdoutLine: {'line': b'[ 53%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[12.947505] (-) TimerEvent: {}
+[13.048264] (-) TimerEvent: {}
+[13.149043] (-) TimerEvent: {}
+[13.249864] (-) TimerEvent: {}
+[13.350568] (-) TimerEvent: {}
+[13.451384] (-) TimerEvent: {}
+[13.552477] (-) TimerEvent: {}
+[13.587546] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[13.651247] (interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/odrive__type_support.c.o\x1b[0m\n'}
+[13.652628] (-) TimerEvent: {}
+[13.654663] (interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/motor__type_support.c.o\x1b[0m\n'}
+[13.664950] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.753032] (-) TimerEvent: {}
+[13.839674] (interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.853300] (-) TimerEvent: {}
+[13.954265] (-) TimerEvent: {}
+[13.971937] (interfaces) StdoutLine: {'line': b'[ 64%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[14.014141] (interfaces) StdoutLine: {'line': b'[ 64%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[14.054441] (-) TimerEvent: {}
+[14.063983] (interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.154599] (-) TimerEvent: {}
+[14.255310] (-) TimerEvent: {}
+[14.355955] (-) TimerEvent: {}
+[14.456621] (-) TimerEvent: {}
+[14.557374] (-) TimerEvent: {}
+[14.657987] (-) TimerEvent: {}
+[14.758591] (-) TimerEvent: {}
+[14.859152] (-) TimerEvent: {}
+[14.959733] (-) TimerEvent: {}
+[15.060604] (-) TimerEvent: {}
+[15.146326] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[15.160725] (-) TimerEvent: {}
+[15.221334] (interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor__type_support_c.cpp.o\x1b[0m\n'}
+[15.222407] (interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/odrive__type_support_c.cpp.o\x1b[0m\n'}
+[15.261034] (-) TimerEvent: {}
+[15.362483] (-) TimerEvent: {}
+[15.464644] (-) TimerEvent: {}
+[15.565434] (-) TimerEvent: {}
+[15.666231] (-) TimerEvent: {}
+[15.767012] (-) TimerEvent: {}
+[15.867918] (-) TimerEvent: {}
+[15.968790] (-) TimerEvent: {}
+[16.069703] (-) TimerEvent: {}
+[16.170483] (-) TimerEvent: {}
+[16.271370] (-) TimerEvent: {}
+[16.372241] (-) TimerEvent: {}
+[16.473139] (-) TimerEvent: {}
+[16.574000] (-) TimerEvent: {}
+[16.674861] (-) TimerEvent: {}
+[16.775793] (-) TimerEvent: {}
+[16.809422] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[16.876070] (-) TimerEvent: {}
+[16.976920] (-) TimerEvent: {}
+[17.078132] (-) TimerEvent: {}
+[17.117036] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[17.178317] (-) TimerEvent: {}
+[17.205467] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces\n'}
+[17.278503] (-) TimerEvent: {}
+[17.327590] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__py\x1b[0m\n'}
+[17.378692] (-) TimerEvent: {}
+[17.384780] (interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[17.478830] (-) TimerEvent: {}
+[17.579653] (-) TimerEvent: {}
+[17.680478] (-) TimerEvent: {}
+[17.781086] (-) TimerEvent: {}
+[17.881720] (-) TimerEvent: {}
+[17.982318] (-) TimerEvent: {}
+[18.082911] (-) TimerEvent: {}
+[18.183640] (-) TimerEvent: {}
+[18.284351] (-) TimerEvent: {}
+[18.385245] (-) TimerEvent: {}
+[18.485847] (-) TimerEvent: {}
+[18.586544] (-) TimerEvent: {}
+[18.687389] (-) TimerEvent: {}
+[18.788251] (-) TimerEvent: {}
+[18.888904] (-) TimerEvent: {}
+[18.989513] (-) TimerEvent: {}
+[19.090092] (-) TimerEvent: {}
+[19.190695] (-) TimerEvent: {}
+[19.291309] (-) TimerEvent: {}
+[19.391986] (-) TimerEvent: {}
+[19.492574] (-) TimerEvent: {}
+[19.593156] (-) TimerEvent: {}
+[19.693919] (-) TimerEvent: {}
+[19.794972] (-) TimerEvent: {}
+[19.895886] (-) TimerEvent: {}
+[19.904772] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__py\n'}
+[19.962332] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__python\x1b[0m\n'}
+[19.996055] (-) TimerEvent: {}
+[20.047920] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_odrive_s.c.o\x1b[0m\n'}
+[20.048920] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_motor_s.c.o\x1b[0m\n'}
+[20.096242] (-) TimerEvent: {}
+[20.197076] (-) TimerEvent: {}
+[20.298061] (-) TimerEvent: {}
+[20.398845] (-) TimerEvent: {}
+[20.500246] (-) TimerEvent: {}
+[20.602462] (-) TimerEvent: {}
+[20.657432] (interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__python.so\x1b[0m\n'}
+[20.702597] (-) TimerEvent: {}
+[20.803322] (-) TimerEvent: {}
+[20.825004] (interfaces) StdoutLine: {'line': b'[ 84%] Built target interfaces__python\n'}
+[20.879863] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[20.880520] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[20.880876] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[20.903505] (-) TimerEvent: {}
+[20.977581] (interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[20.980787] (interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[20.996633] (interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[21.003819] (-) TimerEvent: {}
+[21.105113] (-) TimerEvent: {}
+[21.206773] (-) TimerEvent: {}
+[21.308819] (-) TimerEvent: {}
+[21.387223] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[21.388326] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[21.408999] (-) TimerEvent: {}
+[21.431912] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[21.509575] (-) TimerEvent: {}
+[21.575636] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[21.580942] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[21.609680] (-) TimerEvent: {}
+[21.710432] (-) TimerEvent: {}
+[21.715294] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[21.758656] (interfaces) CommandEnded: {'returncode': 0}
+[21.810700] (-) TimerEvent: {}
+[21.911543] (-) TimerEvent: {}
+[22.012246] (-) TimerEvent: {}
+[22.112963] (-) TimerEvent: {}
+[22.163728] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[22.205418] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/odrv_ws/build/interfaces'], 'cwd': '/home/ubuntu/odrv_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.43.75 50990 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/odrv_ws/install/turtlesim/lib:/home/ubuntu/odrv_ws/install/interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/odrv_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/odrv_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/odrv_ws/install/turtlesim:/home/ubuntu/odrv_ws/install/srvcli:/home/ubuntu/odrv_ws/install/py_srvcli:/home/ubuntu/odrv_ws/install/interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/odrv_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.43.75 50990 192.168.43.248 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/py_srvcli/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/odrv_ws/install/turtlesim:/home/ubuntu/odrv_ws/install/interfaces:/home/ubuntu/odrv_ws/install/srvcli:/home/ubuntu/odrv_ws/install/py_srvcli:/opt/ros/foxy')]), 'shell': False}
+[22.213734] (-) TimerEvent: {}
+[22.246976] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.248323] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[22.250325] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces\n'}
+[22.251126] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg\n'}
+[22.252020] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[22.252490] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[22.252847] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail/motor__type_support.h\n'}
+[22.253660] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail/motor__functions.c\n'}
+[22.254438] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail/motor__struct.h\n'}
+[22.255146] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail/motor__functions.h\n'}
+[22.255862] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/motor.h\n'}
+[22.256492] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv\n'}
+[22.257445] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/odrive.h\n'}
+[22.258208] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[22.259244] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__functions.c\n'}
+[22.260311] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__type_support.h\n'}
+[22.261317] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__functions.h\n'}
+[22.262308] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__struct.h\n'}
+[22.263483] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[22.263943] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[22.265902] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[22.268286] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[22.268801] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces\n'}
+[22.269319] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg\n'}
+[22.269684] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[22.270079] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail/motor__rosidl_typesupport_fastrtps_c.h\n'}
+[22.270832] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[22.271270] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv\n'}
+[22.271568] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[22.271962] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__rosidl_typesupport_fastrtps_c.h\n'}
+[22.273626] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[22.275866] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[22.276323] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces\n'}
+[22.276762] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg\n'}
+[22.277115] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[22.277472] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail/dds_fastrtps\n'}
+[22.277826] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail/motor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.278689] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[22.279149] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv\n'}
+[22.279494] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[22.279818] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/dds_fastrtps\n'}
+[22.280100] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.284133] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[22.286467] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[22.286934] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces\n'}
+[22.287280] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg\n'}
+[22.287658] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[22.287974] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[22.288244] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail/motor__rosidl_typesupport_introspection_c.h\n'}
+[22.288898] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail/motor__type_support.c\n'}
+[22.289758] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv\n'}
+[22.290168] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[22.290559] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__type_support.c\n'}
+[22.291593] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__rosidl_typesupport_introspection_c.h\n'}
+[22.295239] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[22.297747] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[22.298941] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[22.301294] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[22.301809] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces\n'}
+[22.302228] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg\n'}
+[22.302539] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[22.302903] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail/motor__struct.hpp\n'}
+[22.303504] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail/motor__traits.hpp\n'}
+[22.304346] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail/motor__builder.hpp\n'}
+[22.305152] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/motor.hpp\n'}
+[22.305998] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv\n'}
+[22.306404] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[22.306762] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__builder.hpp\n'}
+[22.307605] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__traits.hpp\n'}
+[22.308505] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__struct.hpp\n'}
+[22.309500] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/odrive.hpp\n'}
+[22.310500] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces\n'}
+[22.310964] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg\n'}
+[22.311359] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[22.311717] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail/motor__type_support.cpp\n'}
+[22.312335] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/detail/motor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.313122] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv\n'}
+[22.313543] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[22.313865] (-) TimerEvent: {}
+[22.314223] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__type_support.cpp\n'}
+[22.314808] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.318758] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[22.320976] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[22.323223] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[22.325535] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[22.326043] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[22.326430] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[22.327442] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py\n'}
+[22.414018] (-) TimerEvent: {}
+[22.455561] (interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py'...\n"}
+[22.477001] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv\n'}
+[22.477654] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/__init__.py\n'}
+[22.478263] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_odrive.py\n'}
+[22.479207] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_odrive_s.c\n'}
+[22.480265] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg\n'}
+[22.480787] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_motor_s.c\n'}
+[22.481658] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/__init__.py\n'}
+[22.482410] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_motor.py\n'}
+[22.485846] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[22.488854] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[22.491718] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[22.494835] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[22.496494] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[22.499398] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[22.500483] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__python.so\n'}
+[22.502783] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__python.so" to ""\n'}
+[22.503329] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/srv/Odrive.idl\n'}
+[22.503791] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/msg/Motor.idl\n'}
+[22.504877] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/srv/Odrive.srv\n'}
+[22.505386] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/srv/Odrive_Request.msg\n'}
+[22.505821] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/srv/Odrive_Response.msg\n'}
+[22.506216] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/msg/Motor.msg\n'}
+[22.507939] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[22.508881] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[22.509374] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[22.509765] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[22.510817] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[22.511230] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[22.512120] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[22.512523] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[22.512894] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[22.513276] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[22.514121] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[22.514473] (-) TimerEvent: {}
+[22.515252] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[22.516763] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake\n'}
+[22.517333] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[22.519615] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[22.520104] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[22.522311] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[22.522827] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[22.524960] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake\n'}
+[22.526378] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[22.526843] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[22.529160] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[22.529756] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[22.530891] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[22.532002] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.532453] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.532857] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.533275] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.533741] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[22.534148] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[22.534532] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[22.534916] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[22.535320] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/package.xml\n'}
+[22.541269] (interfaces) CommandEnded: {'returncode': 0}
+[22.614866] (-) TimerEvent: {}
+[22.716632] (-) TimerEvent: {}
+[22.818470] (-) TimerEvent: {}
+[22.919208] (-) TimerEvent: {}
+[23.020220] (-) TimerEvent: {}
+[23.062236] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[23.065168] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[2.887s] Invoking command in '/home/ubuntu/odrv_ws/src/srvcli': PYTHONPATH=/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/srvcli build --build-base /home/ubuntu/odrv_ws/build/srvcli/build install --prefix /home/ubuntu/odrv_ws/install/srvcli --record /home/ubuntu/odrv_ws/build/srvcli/install.log --single-version-externally-managed
+[3.823s] running egg_info
+[3.825s] writing ../../build/srvcli/srvcli.egg-info/PKG-INFO
+[3.826s] writing dependency_links to ../../build/srvcli/srvcli.egg-info/dependency_links.txt
+[3.827s] writing entry points to ../../build/srvcli/srvcli.egg-info/entry_points.txt
+[3.827s] writing requirements to ../../build/srvcli/srvcli.egg-info/requires.txt
+[3.828s] writing top-level names to ../../build/srvcli/srvcli.egg-info/top_level.txt
+[3.959s] reading manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+[3.962s] writing manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+[3.963s] running build
+[3.964s] running build_py
+[3.964s] copying srvcli/client_member_function.py -> /home/ubuntu/odrv_ws/build/srvcli/build/lib/srvcli
+[3.971s] running install
+[3.975s] running install_lib
+[3.979s] copying /home/ubuntu/odrv_ws/build/srvcli/build/lib/srvcli/client_member_function.py -> /home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli
+[3.981s] byte-compiling /home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli/client_member_function.py to client_member_function.cpython-38.pyc
+[3.987s] running install_data
+[3.989s] running install_egg_info
+[3.995s] removing '/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+[3.996s] Copying ../../build/srvcli/srvcli.egg-info to /home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli-0.0.0-py3.8.egg-info
+[4.000s] running install_scripts
+[4.063s] Installing service = srvcli.service_member_function:mainclient script to /home/ubuntu/odrv_ws/install/srvcli/lib/srvcli
+[4.067s] writing list of installed files to '/home/ubuntu/odrv_ws/build/srvcli/install.log'
+[4.177s] Invoked command in '/home/ubuntu/odrv_ws/src/srvcli' returned '0': PYTHONPATH=/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/srvcli build --build-base /home/ubuntu/odrv_ws/build/srvcli/build install --prefix /home/ubuntu/odrv_ws/install/srvcli --record /home/ubuntu/odrv_ws/build/srvcli/install.log --single-version-externally-managed

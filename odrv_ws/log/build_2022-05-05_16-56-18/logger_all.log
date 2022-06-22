@@ -1,0 +1,184 @@
+[0.553s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.554s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8f510190>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8f510190>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8f5106d0>)
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.573s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/odrv_ws'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.643s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.711s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/odrv_ws/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/odrv_ws/install/turtlesim', 'merge_install': False, 'path': '/home/ubuntu/odrv_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.725s] WARNING:colcon.colcon_core.verb:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-core.
+[0.727s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.734s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.735s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/odrv_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[0.735s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/odrv_ws/src/ros_tutorials/turtlesim'
+[0.757s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.758s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.758s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/odrv_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/odrv_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/ubuntu/odrv_ws/install/turtlesim
+[13.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/odrv_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/odrv_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/ubuntu/odrv_ws/install/turtlesim
+[13.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/odrv_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/odrv_ws/build/turtlesim -- -j4 -l4
+[126.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/odrv_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/odrv_ws/build/turtlesim -- -j4 -l4
+[127.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/odrv_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/odrv_ws/build/turtlesim
+[128.009s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[128.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/odrv_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/odrv_ws/build/turtlesim
+[128.027s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/odrv_ws/install/turtlesim' for CMake module files
+[128.032s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/odrv_ws/install/turtlesim' for CMake config files
+[128.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[128.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[128.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[128.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[128.044s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/odrv_ws/install/turtlesim/lib'
+[128.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[128.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[128.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[128.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[128.051s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/odrv_ws/install/turtlesim/bin'
+[128.051s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/odrv_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[128.051s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages'
+[128.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[128.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[128.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[128.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[128.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/package.ps1'
+[128.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/package.dsv'
+[128.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/package.sh'
+[128.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/package.bash'
+[128.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/package.zsh'
+[128.079s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/odrv_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[129.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[129.213s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/odrv_ws/install/turtlesim' for CMake module files
+[129.218s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/odrv_ws/install/turtlesim' for CMake config files
+[129.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[129.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[129.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[129.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[129.229s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/odrv_ws/install/turtlesim/lib'
+[129.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[129.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[129.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[129.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[129.236s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/odrv_ws/install/turtlesim/bin'
+[129.237s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/odrv_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[129.237s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages'
+[129.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[129.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[129.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[129.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[129.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/package.ps1'
+[129.249s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/package.dsv'
+[129.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/package.sh'
+[129.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/package.bash'
+[129.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/package.zsh'
+[129.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/odrv_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[129.259s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[129.260s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[129.260s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[129.261s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[129.294s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[129.294s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[129.295s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[129.380s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[129.382s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/odrv_ws/install/local_setup.ps1'
+[129.386s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/odrv_ws/install/_local_setup_util_ps1.py'
+[129.392s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/odrv_ws/install/setup.ps1'
+[129.398s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/odrv_ws/install/local_setup.sh'
+[129.401s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/odrv_ws/install/_local_setup_util_sh.py'
+[129.404s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/odrv_ws/install/setup.sh'
+[129.409s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/odrv_ws/install/local_setup.bash'
+[129.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/odrv_ws/install/setup.bash'
+[129.417s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/odrv_ws/install/local_setup.zsh'
+[129.420s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/odrv_ws/install/setup.zsh'

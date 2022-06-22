@@ -1,0 +1,564 @@
+[0.000000] (-) TimerEvent: {}
+[0.000995] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001339] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.002438] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.002965] (srvcli) JobQueued: {'identifier': 'srvcli', 'dependencies': OrderedDict([('interfaces', '/home/ubuntu/odrv_ws/install/interfaces')])}
+[0.003850] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.027013] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.050330] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.073368] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.076313] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.078870] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/odrv_ws/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/odrv_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.43.75 50324 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/1'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/odrv_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.43.75 50324 192.168.43.248 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.100986] (-) TimerEvent: {}
+[0.203207] (-) TimerEvent: {}
+[0.304811] (-) TimerEvent: {}
+[0.406017] (-) TimerEvent: {}
+[0.507552] (-) TimerEvent: {}
+[0.609955] (-) TimerEvent: {}
+[0.711871] (-) TimerEvent: {}
+[0.813308] (-) TimerEvent: {}
+[0.914787] (-) TimerEvent: {}
+[1.017018] (-) TimerEvent: {}
+[1.118565] (-) TimerEvent: {}
+[1.220864] (-) TimerEvent: {}
+[1.322297] (-) TimerEvent: {}
+[1.423734] (-) TimerEvent: {}
+[1.525587] (-) TimerEvent: {}
+[1.627012] (-) TimerEvent: {}
+[1.728780] (-) TimerEvent: {}
+[1.830643] (-) TimerEvent: {}
+[1.932215] (-) TimerEvent: {}
+[2.034048] (-) TimerEvent: {}
+[2.079427] (interfaces) StdoutLine: {'line': b'[  3%] Built target interfaces__cpp\n'}
+[2.085794] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[2.087864] (interfaces) StdoutLine: {'line': b'[ 22%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.089441] (interfaces) StdoutLine: {'line': b'[ 32%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[2.092173] (interfaces) StdoutLine: {'line': b'[ 41%] Built target interfaces__rosidl_typesupport_c\n'}
+[2.093368] (interfaces) StdoutLine: {'line': b'[ 51%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.095082] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[2.096450] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.098693] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces\n'}
+[2.101582] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__py\n'}
+[2.115719] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__python\n'}
+[2.117900] (interfaces) StdoutLine: {'line': b'[ 87%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.119177] (interfaces) StdoutLine: {'line': b'[ 93%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[2.120255] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.123129] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[2.123804] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[2.124511] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/odrv_ws/build/turtlesim', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/odrv_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.43.75 50324 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/1'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/odrv_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.43.75 50324 192.168.43.248 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[2.140344] (-) TimerEvent: {}
+[2.149233] (interfaces) CommandEnded: {'returncode': 0}
+[2.240897] (-) TimerEvent: {}
+[2.343038] (-) TimerEvent: {}
+[2.444478] (-) TimerEvent: {}
+[2.546132] (-) TimerEvent: {}
+[2.625333] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[2.646458] (-) TimerEvent: {}
+[2.688742] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[2.729211] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[2.747793] (-) TimerEvent: {}
+[2.835178] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/odrv_ws/build/interfaces'], 'cwd': '/home/ubuntu/odrv_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.43.75 50324 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/1'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/odrv_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.43.75 50324 192.168.43.248 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[2.847729] (-) TimerEvent: {}
+[2.889781] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.891694] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[2.893589] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces\n'}
+[2.894856] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg\n'}
+[2.895912] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[2.897448] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.898964] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv\n'}
+[2.900545] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/odrive.h\n'}
+[2.901748] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[2.902805] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[2.904198] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__functions.c\n'}
+[2.905781] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__type_support.h\n'}
+[2.907085] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__functions.h\n'}
+[2.908288] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__struct.h\n'}
+[2.909908] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[2.911342] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[2.913859] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[2.916392] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces\n'}
+[2.917941] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg\n'}
+[2.919450] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.920650] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv\n'}
+[2.922267] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[2.924064] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__rosidl_typesupport_fastrtps_c.h\n'}
+[2.926598] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.929142] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces\n'}
+[2.930446] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg\n'}
+[2.932080] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.933708] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv\n'}
+[2.935285] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[2.937073] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/dds_fastrtps\n'}
+[2.939042] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.942066] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.945094] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces\n'}
+[2.946578] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg\n'}
+[2.947396] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_c\n'}
+[2.948354] (-) TimerEvent: {}
+[2.950682] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.952058] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv\n'}
+[2.953670] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[2.955365] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__type_support.c\n'}
+[2.957108] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__rosidl_typesupport_introspection_c.h\n'}
+[2.959805] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[2.960751] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.964330] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[2.967235] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces\n'}
+[2.968671] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv\n'}
+[2.970013] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[2.971574] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__builder.hpp\n'}
+[2.973227] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__traits.hpp\n'}
+[2.974433] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__struct.hpp\n'}
+[2.976430] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/odrive.hpp\n'}
+[2.978468] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces\n'}
+[2.979416] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv\n'}
+[2.980126] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[2.980596] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__type_support.cpp\n'}
+[2.980946] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.981541] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.983849] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[2.986062] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[2.986946] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[2.987756] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py\n'}
+[3.042410] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[3.048544] (-) TimerEvent: {}
+[3.118370] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[3.148949] (-) TimerEvent: {}
+[3.155841] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv\n'}
+[3.157104] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/__init__.py\n'}
+[3.158295] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_odrive.py\n'}
+[3.159245] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_odrive_s.c\n'}
+[3.159886] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[3.161893] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[3.164819] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[3.167414] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__python.so\n'}
+[3.168686] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/srv/Odrive.idl\n'}
+[3.170131] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/srv/Odrive.srv\n'}
+[3.171121] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/srv/Odrive_Request.msg\n'}
+[3.172307] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/srv/Odrive_Response.msg\n'}
+[3.173444] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[3.174673] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[3.175577] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[3.176214] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[3.177253] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[3.178067] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[3.178865] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[3.180001] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[3.180872] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[3.182130] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[3.182875] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[3.183745] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[3.185076] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake\n'}
+[3.185898] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.187245] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.188528] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.189784] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.191391] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.192450] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.193218] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.193973] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.194659] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.195374] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.196355] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.197311] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.199528] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.201484] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.203529] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.207080] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.208304] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.209398] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[3.209807] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[3.210279] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/package.xml\n'}
+[3.210779] (interfaces) CommandEnded: {'returncode': 0}
+[3.212256] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[3.249967] (-) TimerEvent: {}
+[3.350956] (-) TimerEvent: {}
+[3.415246] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__py\n'}
+[3.419872] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target draw_square\n'}
+[3.448118] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target mimic\n'}
+[3.451140] (-) TimerEvent: {}
+[3.497624] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtle_teleop_key\n'}
+[3.551346] (-) TimerEvent: {}
+[3.571836] (turtlesim) StdoutLine: {'line': b'[ 87%] Built target turtlesim__python\n'}
+[3.651543] (-) TimerEvent: {}
+[3.716843] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim_node\n'}
+[3.740200] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[3.751753] (-) TimerEvent: {}
+[3.762757] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.765292] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[3.853201] (-) TimerEvent: {}
+[3.864406] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[3.870531] (srvcli) JobStarted: {'identifier': 'srvcli'}
+[3.892603] (turtlesim) CommandEnded: {'returncode': 0}
+[3.953562] (-) TimerEvent: {}
+[4.055218] (-) TimerEvent: {}
+[4.156155] (-) TimerEvent: {}
+[4.258079] (-) TimerEvent: {}
+[4.359674] (-) TimerEvent: {}
+[4.461591] (-) TimerEvent: {}
+[4.563815] (-) TimerEvent: {}
+[4.665477] (-) TimerEvent: {}
+[4.766181] (-) TimerEvent: {}
+[4.866878] (-) TimerEvent: {}
+[4.962454] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[4.963894] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/odrv_ws/build/turtlesim'], 'cwd': '/home/ubuntu/odrv_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.43.75 50324 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/1'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/odrv_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.43.75 50324 192.168.43.248 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[4.973940] (-) TimerEvent: {}
+[4.977117] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/ubuntu/odrv_ws/build/py_srvcli/build', 'install', '--prefix', '/home/ubuntu/odrv_ws/install/py_srvcli', '--record', '/home/ubuntu/odrv_ws/build/py_srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/odrv_ws/src/py_srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.43.75 50324 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/1', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'PWD': '/home/ubuntu/odrv_ws/build/py_srvcli', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.43.75 50324 192.168.43.248 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'PYTHONPATH': '/home/ubuntu/odrv_ws/install/py_srvcli/lib/python3.8/site-packages:'}, 'shell': False}
+[5.009473] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.010474] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[5.011154] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim\n'}
+[5.011862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action\n'}
+[5.012420] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[5.013562] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[5.014242] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[5.014882] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[5.015455] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[5.016043] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[5.016663] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg\n'}
+[5.017828] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.019231] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[5.020482] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[5.021860] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[5.023149] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[5.024407] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[5.025005] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[5.025997] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[5.026517] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[5.027361] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[5.028338] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[5.030087] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[5.031265] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv\n'}
+[5.032356] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[5.032837] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[5.033346] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[5.033978] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[5.034421] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[5.034884] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[5.035980] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[5.037220] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[5.038516] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[5.039928] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[5.041365] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[5.042408] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[5.043087] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[5.044072] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[5.044686] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[5.045394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[5.046483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[5.047335] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[5.048048] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[5.049375] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[5.050651] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[5.051822] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[5.052954] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[5.053661] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[5.055078] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[5.056393] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[5.058374] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[5.059753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[5.061455] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[5.064471] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim\n'}
+[5.065599] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action\n'}
+[5.066664] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[5.068110] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[5.069518] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg\n'}
+[5.071040] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[5.074665] (-) TimerEvent: {}
+[5.076433] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[5.077460] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[5.078415] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.079249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv\n'}
+[5.079894] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[5.080674] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[5.081185] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[5.081635] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[5.082001] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[5.082358] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[5.082731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[5.083165] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim\n'}
+[5.083997] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action\n'}
+[5.084641] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[5.085355] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[5.086822] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.087502] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg\n'}
+[5.088245] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[5.088887] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[5.090081] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.090847] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.091419] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.092040] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv\n'}
+[5.093904] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[5.105592] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.107281] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.107862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[5.108339] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.109016] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.109761] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.110318] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.110852] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim\n'}
+[5.111520] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action\n'}
+[5.112126] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[5.112675] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[5.113272] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[5.113880] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg\n'}
+[5.114580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.115202] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[5.115888] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[5.116554] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[5.117325] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[5.118003] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[5.118755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv\n'}
+[5.119520] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[5.120362] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[5.121013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[5.121879] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[5.122841] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[5.123764] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[5.124405] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[5.125340] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[5.126014] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[5.126881] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[5.127545] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[5.128224] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[5.129239] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[5.130022] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim\n'}
+[5.130752] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action\n'}
+[5.131396] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[5.132038] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[5.132691] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[5.133473] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[5.134181] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[5.134842] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg\n'}
+[5.135532] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[5.136224] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[5.136727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[5.137337] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[5.137888] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[5.138480] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[5.139050] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[5.139674] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[5.140314] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[5.140975] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv\n'}
+[5.141767] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[5.142675] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[5.143364] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[5.144221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[5.145250] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[5.146043] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[5.146676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[5.147553] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[5.148296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[5.148976] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[5.149679] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[5.150341] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[5.151096] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[5.151763] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[5.152344] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[5.152961] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[5.153888] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[5.154472] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[5.155141] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[5.156025] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[5.156650] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[5.157506] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim\n'}
+[5.158242] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action\n'}
+[5.158929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[5.159729] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[5.161188] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.162643] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg\n'}
+[5.163991] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[5.164696] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[5.165466] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[5.166241] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.167014] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.167653] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv\n'}
+[5.168300] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[5.169361] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.170037] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[5.170581] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[5.170978] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[5.171457] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[5.172023] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.172535] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.173012] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.173884] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[5.174537] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.175100] (-) TimerEvent: {}
+[5.176358] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[5.177245] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[5.177968] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[5.178623] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[5.179729] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[5.268935] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[5.270786] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[5.271519] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[5.272716] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[5.273753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[5.274596] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[5.275254] (-) TimerEvent: {}
+[5.276459] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[5.277462] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[5.278312] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[5.279372] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[5.280560] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[5.281508] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[5.282136] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[5.282716] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[5.283831] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[5.284375] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[5.284886] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[5.285525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[5.286062] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[5.286533] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[5.287374] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[5.287903] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[5.288428] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[5.288966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[5.290626] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[5.293462] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/libturtlesim__python.so\n'}
+[5.295267] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[5.296365] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[5.297726] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[5.298857] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[5.299911] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[5.301208] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[5.302600] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[5.304097] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[5.305509] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[5.306751] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[5.309241] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[5.311312] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[5.311856] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[5.312393] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[5.313225] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[5.313904] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[5.314498] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[5.315109] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[5.315891] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[5.316464] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[5.317085] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[5.317675] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[5.318587] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[5.319114] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[5.319601] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[5.319931] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[5.320551] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[5.320969] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[5.321494] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[5.324065] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[5.325874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/images\n'}
+[5.326591] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[5.327696] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[5.328924] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[5.329823] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[5.331183] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[5.332397] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[5.332870] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/launch\n'}
+[5.333486] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[5.334278] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[5.334977] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[5.335768] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[5.336299] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[5.337530] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[5.338378] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[5.339787] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[5.340538] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[5.341753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[5.342372] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[5.343323] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[5.343873] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[5.344902] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[5.346064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.346889] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.348311] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.349430] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[5.350576] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.352206] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[5.353632] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.354669] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.355726] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[5.356959] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.358632] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[5.361104] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.367966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.368914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.369758] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.370482] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.371728] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.372396] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[5.373221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[5.373987] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/odrv_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[5.374670] (turtlesim) CommandEnded: {'returncode': 0}
+[5.376153] (-) TimerEvent: {}
+[5.477484] (-) TimerEvent: {}
+[5.578896] (-) TimerEvent: {}
+[5.680096] (-) TimerEvent: {}
+[5.781678] (-) TimerEvent: {}
+[5.882526] (-) TimerEvent: {}
+[5.983987] (-) TimerEvent: {}
+[6.022430] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[6.025274] (py_srvcli) StdoutLine: {'line': b'writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[6.026948] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[6.027944] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[6.029838] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[6.032182] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[6.084200] (-) TimerEvent: {}
+[6.184917] (-) TimerEvent: {}
+[6.186283] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[6.189859] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[6.191343] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[6.192002] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[6.193095] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[6.196265] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[6.203870] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[6.206756] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.214192] (py_srvcli) StdoutLine: {'line': b"removing '/home/ubuntu/odrv_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.220051] (py_srvcli) StdoutLine: {'line': b'Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/ubuntu/odrv_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info\n'}
+[6.229942] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[6.285161] (-) TimerEvent: {}
+[6.293477] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[6.298315] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/ubuntu/odrv_ws/install/py_srvcli/lib/py_srvcli\n'}
+[6.299152] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/ubuntu/odrv_ws/install/py_srvcli/lib/py_srvcli\n'}
+[6.300834] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/odrv_ws/build/py_srvcli/install.log'\n"}
+[6.385534] (-) TimerEvent: {}
+[6.403082] (py_srvcli) CommandEnded: {'returncode': 0}
+[6.435874] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[6.485619] (-) TimerEvent: {}
+[6.586211] (-) TimerEvent: {}
+[6.686832] (-) TimerEvent: {}
+[6.788395] (-) TimerEvent: {}
+[6.832688] (srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/srvcli', 'build', '--build-base', '/home/ubuntu/odrv_ws/build/srvcli/build', 'install', '--prefix', '/home/ubuntu/odrv_ws/install/srvcli', '--record', '/home/ubuntu/odrv_ws/build/srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/odrv_ws/src/srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.43.75 50324 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/odrv_ws/install/interfaces/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/1', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/odrv_ws/install/interfaces', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'PWD': '/home/ubuntu/odrv_ws/build/srvcli', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.43.75 50324 192.168.43.248 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_NUMERIC': 'en_US.UTF-8', 'PYTHONPATH': '/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/odrv_ws/install/interfaces'}, 'shell': False}
+[6.888605] (-) TimerEvent: {}
+[6.989351] (-) TimerEvent: {}
+[7.090025] (-) TimerEvent: {}
+[7.190693] (-) TimerEvent: {}
+[7.291325] (-) TimerEvent: {}
+[7.391946] (-) TimerEvent: {}
+[7.492571] (-) TimerEvent: {}
+[7.561976] (srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[7.563858] (srvcli) StdoutLine: {'line': b'writing ../../build/srvcli/srvcli.egg-info/PKG-INFO\n'}
+[7.564867] (srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/srvcli/srvcli.egg-info/dependency_links.txt\n'}
+[7.565812] (srvcli) StdoutLine: {'line': b'writing entry points to ../../build/srvcli/srvcli.egg-info/entry_points.txt\n'}
+[7.566429] (srvcli) StdoutLine: {'line': b'writing requirements to ../../build/srvcli/srvcli.egg-info/requires.txt\n'}
+[7.567013] (srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/srvcli/srvcli.egg-info/top_level.txt\n'}
+[7.592700] (-) TimerEvent: {}
+[7.693338] (-) TimerEvent: {}
+[7.693833] (srvcli) StdoutLine: {'line': b"reading manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'\n"}
+[7.696768] (srvcli) StdoutLine: {'line': b"writing manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'\n"}
+[7.697372] (srvcli) StdoutLine: {'line': b'running build\n'}
+[7.697840] (srvcli) StdoutLine: {'line': b'running build_py\n'}
+[7.699032] (srvcli) StdoutLine: {'line': b'running install\n'}
+[7.701726] (srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[7.707156] (srvcli) StdoutLine: {'line': b'running install_data\n'}
+[7.709081] (srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.714725] (srvcli) StdoutLine: {'line': b"removing '/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[7.716046] (srvcli) StdoutLine: {'line': b'Copying ../../build/srvcli/srvcli.egg-info to /home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli-0.0.0-py3.8.egg-info\n'}
+[7.720075] (srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[7.778542] (srvcli) StdoutLine: {'line': b'Installing client script to /home/ubuntu/odrv_ws/install/srvcli/lib/srvcli\n'}
+[7.779301] (srvcli) StdoutLine: {'line': b'Installing service script to /home/ubuntu/odrv_ws/install/srvcli/lib/srvcli\n'}
+[7.780869] (srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/odrv_ws/build/srvcli/install.log'\n"}
+[7.793574] (-) TimerEvent: {}
+[7.873271] (srvcli) CommandEnded: {'returncode': 0}
+[7.893950] (-) TimerEvent: {}
+[7.902267] (srvcli) JobEnded: {'identifier': 'srvcli', 'rc': 0}
+[7.905691] (-) EventReactorShutdown: {}

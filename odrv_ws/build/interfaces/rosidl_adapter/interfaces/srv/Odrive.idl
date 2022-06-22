@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/Odrive.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct Odrive_Request {
+      int32 axis;
+
+      boolean idle;
+
+      boolean calibration;
+
+      boolean giro;
+
+      float ang;
+
+      int64 control_mode;
+
+      float pos;
+
+      float vel;
+
+      float torque;
+    };
+    struct Odrive_Response {
+      string ack;
+    };
+  };
+};

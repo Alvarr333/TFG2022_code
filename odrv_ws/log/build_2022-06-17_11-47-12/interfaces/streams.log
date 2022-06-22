@@ -1,0 +1,196 @@
+[0.146s] Invoking command in '/home/ubuntu/odrv_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/odrv_ws/install/srvcli:/home/ubuntu/odrv_ws/install/py_srvcli:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/odrv_ws/build/interfaces -- -j4 -l4
+[1.277s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.279s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.280s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.060s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.084s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.114s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.867s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.169s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[5.930s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[7.308s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.691s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[7.697s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[7.968s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.969s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[7.971s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[8.122s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.236s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.256s] -- Added test 'lint_cmake' to check CMake code style
+[8.265s] -- Added test 'xmllint' to check XML markup files
+[8.299s] -- Configuring done
+[8.633s] -- Generating done
+[8.649s] -- Build files have been written to: /home/ubuntu/odrv_ws/build/interfaces
+[8.760s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.801s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.047s] [  6%] Built target interfaces__cpp
+[10.052s] [35m[1mScanning dependencies of target interfaces__rosidl_generator_c[0m
+[10.102s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.103s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.104s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.124s] [ 19%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/odrive__functions.c.o[0m
+[11.456s] [ 22%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[11.913s] [ 22%] Built target interfaces__rosidl_generator_c
+[12.052s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.192s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp[0m
+[12.364s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/odrive__type_support.cpp.o[0m
+[12.697s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp[0m
+[12.722s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[12.842s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/odrive__type_support.cpp.o[0m
+[12.917s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/odrive__type_support.cpp.o[0m
+[14.504s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c[0m
+[14.664s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/odrive__type_support.cpp.o[0m
+[15.131s] [ 41%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[15.557s] [ 41%] Built target interfaces__rosidl_typesupport_c
+[15.692s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.515s] [ 48%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[16.723s] [ 51%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[16.936s] [ 51%] Built target interfaces__rosidl_typesupport_cpp
+[17.255s] [ 51%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[17.776s] [ 54%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[17.780s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c[0m
+[17.833s] [ 58%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/odrive__type_support.c.o[0m
+[18.011s] [ 61%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[18.111s] [ 61%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[18.134s] [ 61%] Built target interfaces__rosidl_typesupport_introspection_c
+[18.154s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[19.108s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c[0m
+[19.176s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/odrive__type_support_c.cpp.o[0m
+[20.581s] [ 70%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[20.886s] [ 70%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[20.972s] [ 70%] Built target interfaces
+[21.061s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[23.411s] [ 74%] Built target interfaces__py
+[23.461s] [35m[1mScanning dependencies of target interfaces__python[0m
+[23.529s] [ 77%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_odrive_s.c.o[0m
+[24.098s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__python.so[0m
+[24.263s] [ 80%] Built target interfaces__python
+[24.317s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[24.319s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext[0m
+[24.320s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[24.387s] [ 83%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[24.411s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[24.425s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[24.789s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[24.805s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[24.850s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[24.974s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[24.996s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[25.128s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[25.171s] Invoked command in '/home/ubuntu/odrv_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/odrv_ws/install/srvcli:/home/ubuntu/odrv_ws/install/py_srvcli:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/odrv_ws/build/interfaces -- -j4 -l4
+[25.472s] Invoking command in '/home/ubuntu/odrv_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/odrv_ws/install/srvcli:/home/ubuntu/odrv_ws/install/py_srvcli:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/odrv_ws/build/interfaces
+[25.506s] -- Install configuration: ""
+[25.508s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[25.509s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces
+[25.510s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg
+[25.511s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[25.511s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv
+[25.512s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/odrive.h
+[25.513s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail
+[25.513s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__functions.c
+[25.515s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__type_support.h
+[25.515s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__functions.h
+[25.516s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__struct.h
+[25.518s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[25.518s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[25.520s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[25.523s] -- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[25.523s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces
+[25.524s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg
+[25.524s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[25.524s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv
+[25.525s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail
+[25.525s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__rosidl_typesupport_fastrtps_c.h
+[25.527s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[25.530s] -- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[25.530s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces
+[25.531s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg
+[25.531s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[25.531s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv
+[25.532s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail
+[25.532s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/dds_fastrtps
+[25.532s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__rosidl_typesupport_fastrtps_cpp.hpp
+[25.536s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[25.563s] -- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[25.564s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces
+[25.565s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg
+[25.566s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[25.567s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv
+[25.568s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail
+[25.569s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__type_support.c
+[25.570s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__rosidl_typesupport_introspection_c.h
+[25.576s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[25.578s] -- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[25.579s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[25.581s] -- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[25.581s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces
+[25.582s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv
+[25.582s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail
+[25.583s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__builder.hpp
+[25.583s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__traits.hpp
+[25.584s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__struct.hpp
+[25.585s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/odrive.hpp
+[25.586s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces
+[25.586s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv
+[25.587s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail
+[25.587s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__type_support.cpp
+[25.588s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/include/interfaces/srv/detail/odrive__rosidl_typesupport_introspection_cpp.hpp
+[25.592s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[25.594s] -- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[25.596s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[25.599s] -- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[25.599s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[25.600s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[25.601s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py
+[25.729s] Compiling '/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py'...
+[25.750s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv
+[25.750s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/__init__.py
+[25.751s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_odrive.py
+[25.752s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_odrive_s.c
+[25.755s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[25.758s] -- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[25.761s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[25.764s] -- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[25.765s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[25.768s] -- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[25.769s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__python.so
+[25.772s] -- Set runtime path of "/home/ubuntu/odrv_ws/install/interfaces/lib/libinterfaces__python.so" to ""
+[25.773s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/srv/Odrive.idl
+[25.774s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/srv/Odrive.srv
+[25.775s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/srv/Odrive_Request.msg
+[25.776s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/srv/Odrive_Response.msg
+[25.777s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[25.778s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[25.779s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[25.780s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[25.781s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/path.sh
+[25.781s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/environment/path.dsv
+[25.782s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/local_setup.bash
+[25.783s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/local_setup.sh
+[25.783s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/local_setup.zsh
+[25.783s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/local_setup.dsv
+[25.784s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/package.dsv
+[25.786s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[25.789s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake
+[25.789s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake
+[25.792s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[25.792s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[25.795s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[25.795s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[25.797s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake
+[25.799s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[25.799s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[25.802s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[25.802s] -- Installing: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[25.803s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[25.804s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.804s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[25.805s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[25.805s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.806s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[25.806s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[25.807s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[25.807s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[25.807s] -- Up-to-date: /home/ubuntu/odrv_ws/install/interfaces/share/interfaces/package.xml
+[25.817s] Invoked command in '/home/ubuntu/odrv_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/odrv_ws/install/srvcli:/home/ubuntu/odrv_ws/install/py_srvcli:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/odrv_ws/build/interfaces

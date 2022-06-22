@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/odrv_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/odrv_ws/build/interfaces -- -j4 -l4
+Invoked command in '/home/ubuntu/odrv_ws/build/interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/odrv_ws/build/interfaces -- -j4 -l4

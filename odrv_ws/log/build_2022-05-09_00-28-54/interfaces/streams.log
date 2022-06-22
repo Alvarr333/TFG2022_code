@@ -1,0 +1,12 @@
+[0.084s] Invoking command in '/home/ubuntu/odrv_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/odrv_ws/build/interfaces -- -j4 -l4
+[0.213s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.318s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.319s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.236s] CMake Error at CMakeLists.txt:20 (rosidl_generate_interfaces):
+[1.236s]   Unknown CMake command "rosidl_generate_interfaces".
+[1.236s] 
+[1.237s] 
+[1.238s] -- Configuring incomplete, errors occurred!
+[1.238s] See also "/home/ubuntu/odrv_ws/build/interfaces/CMakeFiles/CMakeOutput.log".
+[1.251s] make: *** [Makefile:558: cmake_check_build_system] Error 1
+[1.258s] Invoked command in '/home/ubuntu/odrv_ws/build/interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/odrv_ws/build/interfaces -- -j4 -l4

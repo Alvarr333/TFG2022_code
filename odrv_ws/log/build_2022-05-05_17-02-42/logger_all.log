@@ -1,0 +1,118 @@
+[0.557s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'src/srvcli/']
+[0.557s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff82f88eb0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['src/srvcli/'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff82f88eb0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff82f12460>)
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.577s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/odrv_ws'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.647s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli) by extensions ['colcon_pkg']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli) by extension 'colcon_pkg'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli) by extensions ['colcon_meta']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli) by extension 'colcon_meta'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli) by extension 'ros'
+[0.651s] DEBUG:colcon.colcon_core.package_identification:Package 'src/srvcli' with type 'ros.ament_python' and name 'srvcli'
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.654s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'src/srvcli/' in --packages-select
+[0.733s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'srvcli' in 'src/srvcli'
+[0.733s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlesim' in 'src/ros_tutorials/turtlesim'
+[0.748s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.755s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.757s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.757s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.757s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.781s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.781s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.781s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.858s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.875s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.876s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/odrv_ws/install/local_setup.ps1'
+[0.880s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/odrv_ws/install/_local_setup_util_ps1.py'
+[0.886s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/odrv_ws/install/setup.ps1'
+[0.891s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/odrv_ws/install/local_setup.sh'
+[0.895s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/odrv_ws/install/_local_setup_util_sh.py'
+[0.897s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/odrv_ws/install/setup.sh'
+[0.903s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/odrv_ws/install/local_setup.bash'
+[0.906s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/odrv_ws/install/setup.bash'
+[0.911s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/odrv_ws/install/local_setup.zsh'
+[0.913s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/odrv_ws/install/setup.zsh'

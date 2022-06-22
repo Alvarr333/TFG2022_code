@@ -1,0 +1,4 @@
+[console_scripts]
+client = srvcli.client_member_function:main
+service = srvcli.service_member_function1:main
+

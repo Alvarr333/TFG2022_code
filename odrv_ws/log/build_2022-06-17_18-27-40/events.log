@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.000881] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.001175] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001824] (-) JobUnselected: {'identifier': 'srvcli'}
+[0.002374] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.003503] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.003753] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.048355] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.051441] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.054285] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/odrv_ws/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/odrv_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.43.75 50990 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/odrv_ws/install/turtlesim/lib:/home/ubuntu/odrv_ws/install/interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/odrv_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/odrv_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/odrv_ws/install/turtlesim:/home/ubuntu/odrv_ws/install/srvcli:/home/ubuntu/odrv_ws/install/py_srvcli:/home/ubuntu/odrv_ws/install/interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/odrv_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.43.75 50990 192.168.43.248 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/py_srvcli/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/odrv_ws/install/turtlesim:/home/ubuntu/odrv_ws/install/interfaces:/home/ubuntu/odrv_ws/install/srvcli:/home/ubuntu/odrv_ws/install/py_srvcli:/opt/ros/foxy')]), 'shell': False}
+[0.099150] (-) TimerEvent: {}
+[0.171295] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.199266] (-) TimerEvent: {}
+[0.263860] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.264467] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299412] (-) TimerEvent: {}
+[0.400057] (-) TimerEvent: {}
+[0.500757] (-) TimerEvent: {}
+[0.601394] (-) TimerEvent: {}
+[0.701980] (-) TimerEvent: {}
+[0.802580] (-) TimerEvent: {}
+[0.903152] (-) TimerEvent: {}
+[1.003784] (-) TimerEvent: {}
+[1.025776] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.034429] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.046520] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.103931] (-) TimerEvent: {}
+[1.204588] (-) TimerEvent: {}
+[1.305299] (-) TimerEvent: {}
+[1.405979] (-) TimerEvent: {}
+[1.506681] (-) TimerEvent: {}
+[1.607408] (-) TimerEvent: {}
+[1.708013] (-) TimerEvent: {}
+[1.808679] (-) TimerEvent: {}
+[1.909306] (-) TimerEvent: {}
+[2.010024] (-) TimerEvent: {}
+[2.050503] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.110185] (-) TimerEvent: {}
+[2.210854] (-) TimerEvent: {}
+[2.226394] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.311022] (-) TimerEvent: {}
+[2.411688] (-) TimerEvent: {}
+[2.512279] (-) TimerEvent: {}
+[2.612903] (-) TimerEvent: {}
+[2.713525] (-) TimerEvent: {}
+[2.814276] (-) TimerEvent: {}
+[2.914979] (-) TimerEvent: {}
+[2.958133] (interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[2.959138] (interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[2.959528] (interfaces) StderrLine: {'line': b'  interfaces --arguments-file\n'}
+[2.959787] (interfaces) StderrLine: {'line': b'  /home/ubuntu/odrv_ws/build/interfaces/rosidl_adapter__arguments__interfaces.json\n'}
+[2.960036] (interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[2.960279] (interfaces) StderrLine: {'line': b'  /home/ubuntu/odrv_ws/build/interfaces/rosidl_adapter/interfaces\n'}
+[2.960524] (interfaces) StderrLine: {'line': b'  --output-file\n'}
+[2.960765] (interfaces) StderrLine: {'line': b'  /home/ubuntu/odrv_ws/build/interfaces/rosidl_adapter/interfaces.idls)\n'}
+[2.961007] (interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.961249] (interfaces) StderrLine: {'line': b'\n'}
+[2.961494] (interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.961737] (interfaces) StderrLine: {'line': b'\n'}
+[2.961977] (interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[2.962260] (interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[2.962529] (interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[2.962773] (interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.963013] (interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.963286] (interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.963523] (interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[2.963764] (interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[2.964000] (interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[2.964243] (interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[2.964482] (interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[2.964721] (interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[2.964957] (interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string\n'}
+[2.965190] (interfaces) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[2.965428] (interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__\n'}
+[2.965665] (interfaces) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[2.965900] (interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[2.966137] (interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[2.966435] (interfaces) StderrLine: {'line': b'\n'}
+[2.966689] (interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'motor' is an invalid message\n"}
+[2.966929] (interfaces) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[2.967211] (interfaces) StderrLine: {'line': b'\n'}
+[2.967679] (interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.968013] (interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.968328] (interfaces) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[2.968675] (interfaces) StderrLine: {'line': b'\n'}
+[2.969058] (interfaces) StderrLine: {'line': b'\n'}
+[2.969404] (interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.969778] (interfaces) StdoutLine: {'line': b'See also "/home/ubuntu/odrv_ws/build/interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[2.986279] (interfaces) StderrLine: {'line': b'make: *** [Makefile:748: cmake_check_build_system] Error 1\n'}
+[2.991282] (interfaces) CommandEnded: {'returncode': 2}
+[3.015216] (-) TimerEvent: {}
+[3.116063] (-) TimerEvent: {}
+[3.216768] (-) TimerEvent: {}
+[3.318715] (-) TimerEvent: {}
+[3.360618] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 2}
+[3.372005] (-) EventReactorShutdown: {}

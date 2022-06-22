@@ -1,0 +1,23 @@
+[2.592s] Invoking command in '/home/ubuntu/odrv_ws/src/pubsub': CMAKE_PREFIX_PATH=/home/ubuntu/odrv_ws/install/interfaces:/home/ubuntu/odrv_ws/install/turtlesim LD_LIBRARY_PATH=/home/ubuntu/odrv_ws/install/interfaces/lib:/home/ubuntu/odrv_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/odrv_ws/install/pubsub/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/py_srvcli/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/ubuntu/odrv_ws/build/pubsub/build install --prefix /home/ubuntu/odrv_ws/install/pubsub --record /home/ubuntu/odrv_ws/build/pubsub/install.log --single-version-externally-managed
+[3.448s] running egg_info
+[3.450s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[3.451s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[3.452s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[3.452s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[3.453s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[3.577s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[3.580s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[3.581s] running build
+[3.581s] running build_py
+[3.582s] running install
+[3.585s] running install_lib
+[3.591s] running install_data
+[3.593s] copying package.xml -> /home/ubuntu/odrv_ws/install/pubsub/share/pubsub
+[3.594s] running install_egg_info
+[3.600s] removing '/home/ubuntu/odrv_ws/install/pubsub/lib/python3.8/site-packages/pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[3.601s] Copying ../../build/pubsub/pubsub.egg-info to /home/ubuntu/odrv_ws/install/pubsub/lib/python3.8/site-packages/pubsub-0.0.0-py3.8.egg-info
+[3.605s] running install_scripts
+[3.665s] Installing listener script to /home/ubuntu/odrv_ws/install/pubsub/lib/pubsub
+[3.666s] Installing talker script to /home/ubuntu/odrv_ws/install/pubsub/lib/pubsub
+[3.667s] writing list of installed files to '/home/ubuntu/odrv_ws/build/pubsub/install.log'
+[3.759s] Invoked command in '/home/ubuntu/odrv_ws/src/pubsub' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/odrv_ws/install/interfaces:/home/ubuntu/odrv_ws/install/turtlesim LD_LIBRARY_PATH=/home/ubuntu/odrv_ws/install/interfaces/lib:/home/ubuntu/odrv_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/odrv_ws/install/pubsub/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/py_srvcli/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/ubuntu/odrv_ws/build/pubsub/build install --prefix /home/ubuntu/odrv_ws/install/pubsub --record /home/ubuntu/odrv_ws/build/pubsub/install.log --single-version-externally-managed

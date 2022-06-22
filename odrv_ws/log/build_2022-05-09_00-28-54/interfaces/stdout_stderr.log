@@ -1,0 +1,10 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+CMake Error at CMakeLists.txt:20 (rosidl_generate_interfaces):
+  Unknown CMake command "rosidl_generate_interfaces".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ubuntu/odrv_ws/build/interfaces/CMakeFiles/CMakeOutput.log".
+make: *** [Makefile:558: cmake_check_build_system] Error 1

@@ -1,0 +1,20 @@
+[0.055s] Invoking command in '/home/ubuntu/odrv_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/odrv_ws/install/srvcli:/home/ubuntu/odrv_ws/install/py_srvcli:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/odrv_ws/build/interfaces -- -j4 -l4
+[0.167s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.261s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.261s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.023s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.032s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.044s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.048s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.130s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[2.131s]   rosidl_generate_interfaces() the passed file 'msg/motor.msg' doesn't exist
+[2.131s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[2.131s]   '/home/ubuntu/odrv_ws/src/interfaces'
+[2.132s] Call Stack (most recent call first):
+[2.132s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[2.132s] 
+[2.132s] 
+[2.139s] -- Configuring incomplete, errors occurred!
+[2.139s] See also "/home/ubuntu/odrv_ws/build/interfaces/CMakeFiles/CMakeOutput.log".
+[2.157s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[2.162s] Invoked command in '/home/ubuntu/odrv_ws/build/interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/odrv_ws/install/srvcli:/home/ubuntu/odrv_ws/install/py_srvcli:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/odrv_ws/build/interfaces -- -j4 -l4

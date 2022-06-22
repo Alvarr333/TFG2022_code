@@ -1,0 +1,23 @@
+[2.910s] Invoking command in '/home/ubuntu/odrv_ws/src/srvcli': CMAKE_PREFIX_PATH=/home/ubuntu/odrv_ws/install/interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/odrv_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/srvcli build --build-base /home/ubuntu/odrv_ws/build/srvcli/build install --prefix /home/ubuntu/odrv_ws/install/srvcli --record /home/ubuntu/odrv_ws/build/srvcli/install.log --single-version-externally-managed
+[3.872s] running egg_info
+[3.874s] writing ../../build/srvcli/srvcli.egg-info/PKG-INFO
+[3.875s] writing dependency_links to ../../build/srvcli/srvcli.egg-info/dependency_links.txt
+[3.876s] writing entry points to ../../build/srvcli/srvcli.egg-info/entry_points.txt
+[3.877s] writing requirements to ../../build/srvcli/srvcli.egg-info/requires.txt
+[3.877s] writing top-level names to ../../build/srvcli/srvcli.egg-info/top_level.txt
+[4.008s] reading manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+[4.011s] writing manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+[4.011s] running build
+[4.012s] running build_py
+[4.013s] running install
+[4.016s] running install_lib
+[4.022s] running install_data
+[4.024s] copying package.xml -> /home/ubuntu/odrv_ws/install/srvcli/share/srvcli
+[4.025s] running install_egg_info
+[4.031s] removing '/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+[4.033s] Copying ../../build/srvcli/srvcli.egg-info to /home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages/srvcli-0.0.0-py3.8.egg-info
+[4.037s] running install_scripts
+[4.105s] Installing client script to /home/ubuntu/odrv_ws/install/srvcli/lib/srvcli
+[4.106s] Installing service script to /home/ubuntu/odrv_ws/install/srvcli/lib/srvcli
+[4.108s] writing list of installed files to '/home/ubuntu/odrv_ws/build/srvcli/install.log'
+[4.212s] Invoked command in '/home/ubuntu/odrv_ws/src/srvcli' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/odrv_ws/install/interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/odrv_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/interfaces/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/odrv_ws/install/srvcli/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/srvcli build --build-base /home/ubuntu/odrv_ws/build/srvcli/build install --prefix /home/ubuntu/odrv_ws/install/srvcli --record /home/ubuntu/odrv_ws/build/srvcli/install.log --single-version-externally-managed

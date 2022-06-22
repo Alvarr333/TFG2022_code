@@ -1,0 +1,22 @@
+[5.367s] Invoking command in '/home/ubuntu/odrv_ws/src/py_srvcli': PYTHONPATH=/home/ubuntu/odrv_ws/install/py_srvcli/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ubuntu/odrv_ws/build/py_srvcli/build install --prefix /home/ubuntu/odrv_ws/install/py_srvcli --record /home/ubuntu/odrv_ws/build/py_srvcli/install.log --single-version-externally-managed
+[6.389s] running egg_info
+[6.391s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[6.394s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[6.395s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[6.396s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[6.397s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[6.563s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[6.570s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[6.572s] running build
+[6.573s] running build_py
+[6.578s] running install
+[6.582s] running install_lib
+[6.590s] running install_data
+[6.595s] running install_egg_info
+[6.604s] removing '/home/ubuntu/odrv_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+[6.607s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/ubuntu/odrv_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[6.615s] running install_scripts
+[6.693s] Installing client script to /home/ubuntu/odrv_ws/install/py_srvcli/lib/py_srvcli
+[6.695s] Installing service script to /home/ubuntu/odrv_ws/install/py_srvcli/lib/py_srvcli
+[6.697s] writing list of installed files to '/home/ubuntu/odrv_ws/build/py_srvcli/install.log'
+[6.847s] Invoked command in '/home/ubuntu/odrv_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/ubuntu/odrv_ws/install/py_srvcli/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ubuntu/odrv_ws/build/py_srvcli/build install --prefix /home/ubuntu/odrv_ws/install/py_srvcli --record /home/ubuntu/odrv_ws/build/py_srvcli/install.log --single-version-externally-managed

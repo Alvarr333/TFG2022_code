@@ -1,0 +1,9 @@
+int32 axis
+bool idle
+bool calibration
+bool giro
+float32 ang
+int64 control_mode
+float32 pos
+float32 vel
+float32 torque

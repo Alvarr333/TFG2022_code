@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/odrv_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/odrv_ws/install/srvcli:/home/ubuntu/odrv_ws/install/py_srvcli:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/odrv_ws/build/interfaces -- -j4 -l4
+Invoked command in '/home/ubuntu/odrv_ws/build/interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/odrv_ws/install/srvcli:/home/ubuntu/odrv_ws/install/py_srvcli:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/odrv_ws/build/interfaces -- -j4 -l4
